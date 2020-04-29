@@ -1,0 +1,68 @@
+h1{
+    color:rgb(111, 0, 255);
+    padding-left: 100px;
+}
+.header *{
+    border:solid;
+}
+.header{
+   background-color: rgb(252, 124, 5);
+    display:flex;
+    justify-content: space-evenly;
+    border-style:groove;
+    border-radius:20px ;
+    background-image: url("night sky.jpg") ;
+    background-size: 1000px 100px;
+}
+.grid{
+    display:flex ;
+    flex-wrap:wrap ;
+    justify-content:space-evenly ;
+}
+.footer{
+    display:flex ;
+    justify-content:flex-end ;
+}
+p,h2{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px ;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url("nature.jpg") ;
+    background-size: 1280px 1400px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+a:link{
+    color: lightskyblue;
+}
+a:visited{
+    color: limegreen;
+}
+.menue{
+    margin-left: 100px;
+    padding: 20px;
+}
+.menue a{
+    padding: 20px;
+}
+.item{
+    position: relative;
+    padding:20px ;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
